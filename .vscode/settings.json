@@ -1,0 +1,14 @@
+{
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit",
+        "source.fixAll": "explicit"
+    },
+    "cSpell.words": [
+        "Fluttertoast",
+        "Geolocator",
+        "Utill",
+        "webservice"
+    ],
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "C_Cpp.errorSquiggles": "disabled"
+}
