@@ -94,6 +94,7 @@ class CardDeepLink extends StatelessWidget {
               Expanded(
                 child: CustomButtonWidget(
                   iconColor: ThemeApp.blue,
+                  borderColor: ThemeApp.blue,
                   iconPath: AppIcons.phonCall,
                   textStyle: FontAppStyle.fontSmallBlue,
                   buttonColor: Colors.white,

@@ -31,7 +31,7 @@ class _MapViewSiteState extends State<MapViewSite> {
   final places = GoogleMapsPlaces();
   late final CameraPosition _kGoogle = const CameraPosition(
     target: LatLng(20.42796133580664, 80.885749655962),
-    zoom: 18,
+    zoom: 16,
   );
   final List<Marker> _markers = <Marker>[
     const Marker(
@@ -77,7 +77,7 @@ class _MapViewSiteState extends State<MapViewSite> {
     // specified current users location
     CameraPosition cameraPosition = CameraPosition(
       target: LatLng(widget.latitude, widget.longitude),
-      zoom: 19,
+      zoom: 16,
     );
 
     final GoogleMapController controller = await _controller.future;

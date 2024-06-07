@@ -25,7 +25,7 @@ class _CustomerListMapViewPageState extends State<CustomerListMapViewPage> {
   final places = GoogleMapsPlaces();
   CameraPosition _kGoogle = const CameraPosition(
     target: LatLng(20.42796133580664, 80.885749655962),
-    zoom: 18,
+    zoom: 16,
   );
 
   Future<Position> getUserCurrentLocation() async {
@@ -59,7 +59,7 @@ class _CustomerListMapViewPageState extends State<CustomerListMapViewPage> {
   Future<void> _moveCameraToPosition(LatLng position) async {
     final GoogleMapController controller = await _controller.future;
     controller.animateCamera(CameraUpdate.newCameraPosition(
-      CameraPosition(target: position, zoom: 18),
+      CameraPosition(target: position, zoom: 16),
     ));
   }
 

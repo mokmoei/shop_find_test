@@ -12,7 +12,7 @@ class BranchSearchProvider extends ChangeNotifier {
     try {
       shopListData = await BranchRepository().getShops();
       shopListFilterData = sortShopsByDistance(myLocation, shopListData);
-      shopListFilterData = checkTimeClose(shopListFilterData);
+      shopListData = shopListFilterData = checkTimeClose(shopListFilterData);
     } catch (e) {
       debugPrint("BranchSearchProvider getShopList fail: $e");
       rethrow;
@@ -22,7 +22,7 @@ class BranchSearchProvider extends ChangeNotifier {
 
   void filterSearchResults(String query) {
     if (query.isNotEmpty) {
-      shopListFilterData = shopListFilterData
+      shopListFilterData = shopListData
           .where((item) =>
               item.siteDesc.contains(query.toLowerCase()) ||
               item.siteTel.contains(query.toLowerCase()))
