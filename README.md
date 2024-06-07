@@ -21,6 +21,7 @@ flutter test
 ```
 
 ## Preview
+https://github.com/mokmoei/shop_find_test/assets/97298919/d6de890b-43ee-418a-ad7b-ff3ad812e10e
 ![alt text](https://github.com/mokmoei/shop_find_test/blob/main/preview/image.png?raw=true)
 ![alt text](https://github.com/mokmoei/shop_find_test/blob/main/preview/image2.png?raw=true)
 ![alt text](https://github.com/mokmoei/shop_find_test/blob/main/preview/image3.png?raw=true)
